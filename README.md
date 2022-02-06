@@ -12,7 +12,7 @@ Use this project at your own risk.
 
 The Wolf is a reference to the cleaner in Pulp Fiction.
 
-<img src="https://github.com/DataJuggler/SharedRepo/blob/master/Shared/Images/TheWolfPulpFiction.png" height="512" width="512" />
+<img src="https://github.com/DataJuggler/SharedRepo/blob/master/Shared/Images/TheWolfPulpFiction.png" height="512" width="768" />
 
 This project is a prototype for a WIndows Service I am building. The Windows Service will have a database and a list of folders to delete on a regular basis.
 
