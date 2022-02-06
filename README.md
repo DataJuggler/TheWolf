@@ -1,4 +1,4 @@
-# TheWolf
+# The Wolf
 The Wolf is a Windows desktop app I wrote to clear folders and files out of your Temp folder.
 Windows does not delete most of the telemetry stuff and this slows down a PC.
 
