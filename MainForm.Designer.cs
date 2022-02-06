@@ -35,6 +35,7 @@
             this.Graph = new System.Windows.Forms.ProgressBar();
             this.ExtensionsControl = new DataJuggler.Win.Controls.LabelTextBoxControl();
             this.StatusLabel = new System.Windows.Forms.Label();
+            this.ExtensionsLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CleanButton
@@ -161,6 +162,18 @@
             this.StatusLabel.TabIndex = 5;
             this.StatusLabel.Visible = false;
             // 
+            // ExtensionsLabel
+            // 
+            this.ExtensionsLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ExtensionsLabel.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ExtensionsLabel.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.ExtensionsLabel.Location = new System.Drawing.Point(152, 193);
+            this.ExtensionsLabel.Name = "ExtensionsLabel";
+            this.ExtensionsLabel.Size = new System.Drawing.Size(469, 23);
+            this.ExtensionsLabel.TabIndex = 6;
+            this.ExtensionsLabel.Text = "Semi colon delmited list. Example: .log;.png;.ico;";
+            this.ExtensionsLabel.Visible = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -168,6 +181,7 @@
             this.BackgroundImage = global::TheWolf.Properties.Resources.BlackImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ExtensionsLabel);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.ExtensionsControl);
             this.Controls.Add(this.Graph);
@@ -178,7 +192,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "The Wolf";
+            this.Text = "The Wolf 1.0.0";
             this.ResumeLayout(false);
 
         }
@@ -191,5 +205,6 @@
         private ProgressBar Graph;
         private DataJuggler.Win.Controls.LabelTextBoxControl ExtensionsControl;
         private Label StatusLabel;
+        private Label ExtensionsLabel;
     }
 }
