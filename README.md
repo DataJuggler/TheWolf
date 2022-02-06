@@ -20,4 +20,6 @@ This project is a Demo of the following Data Juggler Nuget Packages:
 1. DataJuggler.Win.Controls
 2. DataJuggler.UltimateHelper
 
+Class FileHelper of DataJuggler.UltimateHelper is used to get files recursively.
+
 I will build an installer once The Wolf is a little more polished.
